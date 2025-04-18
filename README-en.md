@@ -7,7 +7,7 @@ __[Docker](https://github.com/docker/compose)__'ized. The linter and code format
 The bot `Janettora` has a built-in parser for the site [worderdict.ru](https://www.worderdict.ru/) and some small CLIs
 utilities for database management.
 
-__[Документация на русском](https://github.com/waflawe/Janettora/blob/main/README.md)__
+__[Документация на русском](https://github.com/involved-entity/Janettora/blob/main/README.md)__
 
 <!-- TOC --><a name="table-of-contents"></a>
 ## Table of Contents
@@ -31,7 +31,7 @@ __[Документация на русском](https://github.com/waflawe/Jane
 <!-- TOC --><a name="installation"></a>
 ### Installation
 ```command line
-git clone https://github.com/waflawe/Janettora.git
+git clone https://github.com/involved-entity/Janettora.git
 cd Janettora/
 ```
 After successful installation, you need to decide on the word database to use. It is indicated to the program
@@ -168,4 +168,4 @@ Port on `DB_HOST` with the database.
 - __SQLITE_WORDS_DB_TO_DOCKER_NAME__  
 The name `SQLite` of the database in the project folder with the word table for the Docker container. By default, the `test_words.db` database provided by the project itself is used.
 ## License <a name="license"></a>
-This project is licensed under the [MIT License](https://github.com/waflawe/Janettora/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/involved-entity/Janettora/blob/main/LICENSE).
