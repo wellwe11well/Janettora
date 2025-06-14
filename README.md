@@ -7,7 +7,7 @@ __[Docker](https://github.com/docker/compose)__'изирована. Исполь
 К боту `Janettora` встроены парсер сайта [worderdict.ru](https://www.worderdict.ru/) и некоторые маленькие CLI 
 утилиты для управления базами данных.
   
-__[Documentation in English](https://github.com/involved-entity/Janettora/blob/main/README-en.md)__  
+__[Documentation in English](https://github.com/wellwe11well/Janettora/blob/main/README-en.md)__  
 
 <!-- TOC --><a name="table-of-contents"></a>
 ## Карта контента 
@@ -31,7 +31,7 @@ __[Documentation in English](https://github.com/involved-entity/Janettora/blob/m
 <!-- TOC --><a name="installation"></a>
 ### Установка
 ```commandline  
-git clone https://github.com/involved-entity/Janettora.git  
+git clone https://github.com/wellwe11well/Janettora.git  
 cd Janettora/
 ```  
 После успешной установки вам нужно определиться с используемой базой данных слов. Она указывается программе 
@@ -168,4 +168,4 @@ IP Адрес базы.
 - __SQLITE_WORDS_DB_TO_DOCKER_NAME__  
 Имя `SQLite` базы данных в папке проекта с табличкой слов для Docker контейнера. По умолчанию используется база `test_words.db`, предоставляемая самим проектом. 
 ## Лицензия <a name="license"></a>
-Этот проект лицензирован [MIT лицензией](https://github.com/involved-entity/Janettora/blob/main/LICENSE).
+Этот проект лицензирован [MIT лицензией](https://github.com/wellwe11well/Janettora/blob/main/LICENSE).
